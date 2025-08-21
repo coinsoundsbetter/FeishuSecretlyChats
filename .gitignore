@@ -1,0 +1,30 @@
+# === 编译输出 ===
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# === Visual Studio 缓存 ===
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === 其他临时文件 ===
+*.tmp
+*.cache
+*.dbmdl
+
+# === NuGet ===
+packages/
+*.nupkg
+project.lock.json
+
+# === 发布配置（可选忽略） ===
+Properties/PublishProfiles/
+
+# === Rider/Resharper (可选) ===
+.idea/
+*.DotSettings.user
